@@ -1,0 +1,60 @@
+:root{
+    --blue-wigs: rgb(0, 53, 97);
+    --grey-: rgb(187, 177, 171);
+    --green-: rgb(61, 72, 64);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    background-color: var(--green-);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img{
+    width: 100px;
+    padding: 15px;
+    margin-right: 180px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+}
+
+.menu ul li{
+    margin: 15px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: black;
+    background-size: 100% 1px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: var(--grey-);
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+}
+
+
+
+
+
